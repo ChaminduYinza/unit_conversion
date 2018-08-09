@@ -1,5 +1,5 @@
 //
-//  TemperaturViewController.swift
+//  TemperatureViewController.swift
 //  IT15000118_unitConversion
 //
 //  Created by Chamindu Thiranjaya on 8/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TemperaturViewController: UIViewController {
+class TemperatureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
