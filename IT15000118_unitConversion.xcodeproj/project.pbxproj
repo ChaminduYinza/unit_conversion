@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		05A8E0FD211C81C900407E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E0FC211C81C900407E3A /* AppDelegate.swift */; };
-		05A8E0FF211C81C900407E3A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E0FE211C81C900407E3A /* FirstViewController.swift */; };
-		05A8E101211C81C900407E3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E100211C81C900407E3A /* SecondViewController.swift */; };
 		05A8E104211C81C900407E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A8E102211C81C900407E3A /* Main.storyboard */; };
 		05A8E106211C81C900407E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A8E105211C81C900407E3A /* Assets.xcassets */; };
 		05A8E109211C81C900407E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A8E107211C81C900407E3A /* LaunchScreen.storyboard */; };
+		05A8E113211C885F00407E3A /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E112211C885F00407E3A /* WeightViewController.swift */; };
+		05A8E115211C8AFD00407E3A /* TemperaturViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E114211C8AFD00407E3A /* TemperaturViewController.swift */; };
+		05A8E117211C8B0F00407E3A /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E116211C8B0F00407E3A /* DistanceViewController.swift */; };
+		05A8E119211C8B3E00407E3A /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8E118211C8B3E00407E3A /* SpeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05A8E0F9211C81C900407E3A /* IT15000118_unitConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IT15000118_unitConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A8E0FC211C81C900407E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05A8E0FE211C81C900407E3A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		05A8E100211C81C900407E3A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		05A8E103211C81C900407E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05A8E105211C81C900407E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A8E108211C81C900407E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A8E10A211C81C900407E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A8E112211C885F00407E3A /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		05A8E114211C8AFD00407E3A /* TemperaturViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperaturViewController.swift; sourceTree = "<group>"; };
+		05A8E116211C8B0F00407E3A /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		05A8E118211C8B3E00407E3A /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				05A8E0FC211C81C900407E3A /* AppDelegate.swift */,
-				05A8E0FE211C81C900407E3A /* FirstViewController.swift */,
-				05A8E100211C81C900407E3A /* SecondViewController.swift */,
 				05A8E102211C81C900407E3A /* Main.storyboard */,
 				05A8E105211C81C900407E3A /* Assets.xcassets */,
 				05A8E107211C81C900407E3A /* LaunchScreen.storyboard */,
 				05A8E10A211C81C900407E3A /* Info.plist */,
+				05A8E112211C885F00407E3A /* WeightViewController.swift */,
+				05A8E114211C8AFD00407E3A /* TemperaturViewController.swift */,
+				05A8E116211C8B0F00407E3A /* DistanceViewController.swift */,
+				05A8E118211C8B3E00407E3A /* SpeedViewController.swift */,
 			);
 			path = IT15000118_unitConversion;
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A8E101211C81C900407E3A /* SecondViewController.swift in Sources */,
+				05A8E113211C885F00407E3A /* WeightViewController.swift in Sources */,
+				05A8E119211C8B3E00407E3A /* SpeedViewController.swift in Sources */,
+				05A8E117211C8B0F00407E3A /* DistanceViewController.swift in Sources */,
 				05A8E0FD211C81C900407E3A /* AppDelegate.swift in Sources */,
-				05A8E0FF211C81C900407E3A /* FirstViewController.swift in Sources */,
+				05A8E115211C8AFD00407E3A /* TemperaturViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
