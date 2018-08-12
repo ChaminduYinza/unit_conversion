@@ -67,6 +67,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="clickOnGram:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="4i2-ta-oVS"/>
+                                    <action selector="valueChangeOnGram:" destination="izy-h1-CNZ" eventType="editingChanged" id="7CY-NA-oHx"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fL6-6e-Leq">

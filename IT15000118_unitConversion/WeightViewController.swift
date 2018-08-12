@@ -42,4 +42,15 @@ class WeightViewController: UIViewController {
     }
     
     
+    
+    @IBAction func valueChangeOnGram(_ sender: Any) {
+        let wc =  WeightConversionController()
+        wc.conversionGram((self.gram.text! as NSString).doubleValue)
+        
+        self.ounce.text = String(wc.ounce)
+        self.pound.text = String(wc.pound)
+        self.kilogram.text = String(wc.kilogram)
+        
+    }
+    
 }
