@@ -65,6 +65,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnGram:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="4i2-ta-oVS"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fL6-6e-Leq">
                                 <rect key="frame" x="166" y="184" width="178" height="30"/>
@@ -74,6 +77,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnKilogram:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="F5M-o4-EP9"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ao-yX-qVq">
                                 <rect key="frame" x="166" y="253" width="178" height="30"/>
@@ -83,6 +89,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnPound:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="Jrh-CN-8ui"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EqJ-ti-sbE">
                                 <rect key="frame" x="166" y="322" width="178" height="30"/>
@@ -92,6 +101,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnOunce:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="Lfa-d4-pr5"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -120,6 +132,12 @@
                         <viewLayoutGuide key="safeArea" id="pRJ-gB-TEz"/>
                     </view>
                     <navigationItem key="navigationItem" title="Weight" id="5kI-xr-Djr"/>
+                    <connections>
+                        <outlet property="gram" destination="uHV-bg-PFk" id="dRQ-Us-ym7"/>
+                        <outlet property="kilogram" destination="fL6-6e-Leq" id="N5o-PO-MKG"/>
+                        <outlet property="ounce" destination="EqJ-ti-sbE" id="pae-Cl-cW2"/>
+                        <outlet property="pound" destination="0ao-yX-qVq" id="GDZ-O3-2Ne"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qme-Ca-wXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
