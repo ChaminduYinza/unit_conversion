@@ -14,20 +14,34 @@ class WeightConversionController{
     var pound:Double = 0.0
     var ounce:Double = 0.0
     
+    //Gram conversion
+    func conversionGram(_ gramValue:Double){
+        self.kilogram = (0.001/1) * gramValue
+        self.pound = (0.00220462/1) * gramValue
+        self.ounce = (0.035274/1) * gramValue
+        
+    }
+    //Kilogram conversion
+    func conversionKilogram(_ kilogramValue:Double){
+        self.gram = (1000/1) * kilogramValue
+        self.ounce = (35.274/1) * kilogramValue
+        self.pound = (2.20462/1) * kilogramValue
+        
+    }
     
-    func conversionGram(_ gram:Double){
-        self.kilogram = (0.001/1)*gram
-        self.pound = (0.00220462/1)*gram
-        self.ounce = (0.035274/1)*gram      
+    //Pound conversion
+    func conversionPound(_ poundValue:Double){
+        self.gram = (453.592/1) * poundValue
+        self.ounce = (16/1) * poundValue
+        self.kilogram = (0.453592/1) * poundValue
         
     }
-    func conversionKilogram(_ kilogram:Double){
-        
-    }
-    func conversionPound(_ pound:Double){
-        
-    }
-    func conversionOunce(_ ounce:Double){
+    
+    //Oucne conversion
+    func conversionOunce(_ ounceValue:Double){
+        self.gram = (28.3495/1) * ounceValue
+        self.pound = (0.0625/1) * ounceValue
+        self.kilogram = (0.0283495/1) * ounceValue
         
     }
     

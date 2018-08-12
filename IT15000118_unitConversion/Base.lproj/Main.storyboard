@@ -80,6 +80,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="clickOnKilogram:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="F5M-o4-EP9"/>
+                                    <action selector="valueChangeOnKilogram:" destination="izy-h1-CNZ" eventType="editingChanged" id="Ky5-qp-wyt"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ao-yX-qVq">
@@ -92,6 +93,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="clickOnPound:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="Jrh-CN-8ui"/>
+                                    <action selector="valueChangeOnPound:" destination="izy-h1-CNZ" eventType="editingChanged" id="Ybs-W0-r21"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EqJ-ti-sbE">
@@ -104,6 +106,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="clickOnOunce:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="Lfa-d4-pr5"/>
+                                    <action selector="valueChangeOnOunce:" destination="izy-h1-CNZ" eventType="editingChanged" id="Dva-Uj-RGp"/>
                                 </connections>
                             </textField>
                         </subviews>
