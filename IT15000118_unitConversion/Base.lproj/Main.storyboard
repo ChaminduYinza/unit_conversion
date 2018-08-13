@@ -155,7 +155,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4h-M9-idm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4h-M9-idm">
                                 <rect key="frame" x="24" y="118" width="84" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="gBb-YK-vtY"/>
@@ -183,6 +183,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnCelsius:" destination="XDJ-0s-vBd" eventType="editingDidBegin" id="aan-mb-qSc"/>
+                                    <action selector="valueChangeOnCelsius:" destination="XDJ-0s-vBd" eventType="editingChanged" id="4CW-sf-L2g"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5lq-oe-Q5B">
                                 <rect key="frame" x="166" y="184" width="178" height="30"/>
@@ -192,6 +196,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnFahrenheit:" destination="XDJ-0s-vBd" eventType="editingDidBegin" id="fds-6B-Gne"/>
+                                    <action selector="valueChangeOnFahrenheit:" destination="XDJ-0s-vBd" eventType="editingChanged" id="YX6-MC-F9K"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qg6-gS-7Lg">
                                 <rect key="frame" x="166" y="253" width="178" height="30"/>
@@ -201,6 +209,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnKelvin:" destination="XDJ-0s-vBd" eventType="editingDidBegin" id="JPY-Zo-hD5"/>
+                                    <action selector="valueChangeOnKelvin:" destination="XDJ-0s-vBd" eventType="editingChanged" id="12L-IH-qQV"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelvin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8R-Gd-aVk">
                                 <rect key="frame" x="24" y="256" width="107" height="24"/>
@@ -234,6 +246,11 @@
                         <viewLayoutGuide key="safeArea" id="ucU-0o-1jA"/>
                     </view>
                     <navigationItem key="navigationItem" title="Temperature" id="AhW-pq-yiG"/>
+                    <connections>
+                        <outlet property="celsius" destination="xvx-Ds-zGT" id="Bol-p8-iWJ"/>
+                        <outlet property="fahrenheit" destination="5lq-oe-Q5B" id="vbo-Gl-wnD"/>
+                        <outlet property="kelvin" destination="Qg6-gS-7Lg" id="E8q-hu-eBi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wRJ-cv-SbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
