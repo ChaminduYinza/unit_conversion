@@ -459,6 +459,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnMetre:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="NAz-5F-1TO"/>
+                                    <action selector="valueChangeOnMetrePerSec:" destination="DMr-dg-m0G" eventType="editingChanged" id="mti-1y-zDj"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jM0-Hg-GT2">
                                 <rect key="frame" x="199" y="184" width="145" height="30"/>
@@ -468,6 +472,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnFeet:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="oWw-Vq-ZFQ"/>
+                                    <action selector="valueChangeOnFeetPerMin:" destination="DMr-dg-m0G" eventType="editingChanged" id="33e-fd-N2U"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7rE-jD-HNZ">
                                 <rect key="frame" x="199" y="253" width="145" height="30"/>
@@ -477,6 +485,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnKilometre:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="YTS-sk-ipg"/>
+                                    <action selector="valueChangeOnKilometrePerHour:" destination="DMr-dg-m0G" eventType="editingChanged" id="3TT-gd-fkY"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kilometre per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X4-Ib-3i1">
                                 <rect key="frame" x="24" y="256" width="160" height="24"/>
@@ -496,6 +508,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="clickOnMiles:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="b3h-zI-zDb"/>
+                                    <action selector="valueChangeOnMilesPerHour:" destination="DMr-dg-m0G" eventType="editingChanged" id="VcQ-zt-STR"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miles per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6O-Sd-KJ3">
                                 <rect key="frame" x="24" y="325" width="124" height="24"/>
@@ -534,6 +550,12 @@
                         <viewLayoutGuide key="safeArea" id="Vqv-Hd-AOV"/>
                     </view>
                     <navigationItem key="navigationItem" title="Speed" id="cmS-eo-tuP"/>
+                    <connections>
+                        <outlet property="feetPerMin" destination="jM0-Hg-GT2" id="IPs-dd-LJa"/>
+                        <outlet property="kilometrePerHour" destination="7rE-jD-HNZ" id="zaE-DK-qIU"/>
+                        <outlet property="metrePerSec" destination="2bt-S9-tfQ" id="zux-2r-ALs"/>
+                        <outlet property="milesPerHour" destination="wx4-ES-NPF" id="Pdo-mp-zn4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hRq-ux-gsJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
