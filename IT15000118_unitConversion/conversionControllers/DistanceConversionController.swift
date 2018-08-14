@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 class DistanceConversionController{
     var metre:Double = 0.0
     var foot:Double = 0.0
