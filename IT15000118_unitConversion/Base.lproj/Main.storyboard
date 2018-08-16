@@ -623,7 +623,7 @@
         <scene sceneID="ydQ-gr-RSw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jyu-fK-cUm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Distance" image="icons8-marker-30" id="JfR-yb-Jtu"/>
+                    <tabBarItem key="tabBarItem" title="Distance" image="distance-30" id="JfR-yb-Jtu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R6g-gZ-Dtc">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -659,7 +659,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-marker-30" width="30" height="30"/>
+        <image name="distance-30" width="30" height="30"/>
         <image name="icons8-speed-30" width="30" height="30"/>
         <image name="icons8-temperature-30" width="30" height="30"/>
         <image name="icons8-weight-30" width="30" height="30"/>
