@@ -20,6 +20,8 @@ class DistanceViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Calling the hideKeyboard function in ParentViewController (extension)
+        self.hideKeyboard() 
         
     }
      //this function will clear the text fields

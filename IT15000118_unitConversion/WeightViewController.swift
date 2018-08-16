@@ -18,6 +18,8 @@ class WeightViewController: UIViewController {
     @IBOutlet weak var pound: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Calling the hideKeyboard function in ParentViewController (extension)
+        self.hideKeyboard()
         
     }
     //this function will clear the text fields
@@ -76,3 +78,5 @@ class WeightViewController: UIViewController {
     }
     
 }
+
+

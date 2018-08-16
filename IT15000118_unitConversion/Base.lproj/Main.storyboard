@@ -64,7 +64,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnGram:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="4i2-ta-oVS"/>
                                     <action selector="valueChangeOnGram:" destination="izy-h1-CNZ" eventType="editingChanged" id="7CY-NA-oHx"/>
@@ -77,7 +77,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnKilogram:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="F5M-o4-EP9"/>
                                     <action selector="valueChangeOnKilogram:" destination="izy-h1-CNZ" eventType="editingChanged" id="Ky5-qp-wyt"/>
@@ -90,7 +90,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnPound:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="Jrh-CN-8ui"/>
                                     <action selector="valueChangeOnPound:" destination="izy-h1-CNZ" eventType="editingChanged" id="Ybs-W0-r21"/>
@@ -103,7 +103,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnOunce:" destination="izy-h1-CNZ" eventType="editingDidBegin" id="Lfa-d4-pr5"/>
                                     <action selector="valueChangeOnOunce:" destination="izy-h1-CNZ" eventType="editingChanged" id="Dva-Uj-RGp"/>
@@ -182,7 +182,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnCelsius:" destination="XDJ-0s-vBd" eventType="editingDidBegin" id="aan-mb-qSc"/>
                                     <action selector="valueChangeOnCelsius:" destination="XDJ-0s-vBd" eventType="editingChanged" id="4CW-sf-L2g"/>
@@ -195,7 +195,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnFahrenheit:" destination="XDJ-0s-vBd" eventType="editingDidBegin" id="fds-6B-Gne"/>
                                     <action selector="valueChangeOnFahrenheit:" destination="XDJ-0s-vBd" eventType="editingChanged" id="YX6-MC-F9K"/>
@@ -208,7 +208,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnKelvin:" destination="XDJ-0s-vBd" eventType="editingDidBegin" id="JPY-Zo-hD5"/>
                                     <action selector="valueChangeOnKelvin:" destination="XDJ-0s-vBd" eventType="editingChanged" id="12L-IH-qQV"/>
@@ -291,7 +291,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnMetre:" destination="v3D-6P-pdA" eventType="editingDidBegin" id="5vo-XM-vm6"/>
                                     <action selector="valueChangeOnMetre:" destination="v3D-6P-pdA" eventType="editingChanged" id="Nhr-iS-gfA"/>
@@ -304,7 +304,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnFoot:" destination="v3D-6P-pdA" eventType="editingDidBegin" id="MeG-jI-Ass"/>
                                     <action selector="valueChangeOnFoot:" destination="v3D-6P-pdA" eventType="editingChanged" id="F5K-7k-mMe"/>
@@ -317,7 +317,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnYard:" destination="v3D-6P-pdA" eventType="editingDidBegin" id="kPO-Pg-QPA"/>
                                     <action selector="valueChangeOnYard:" destination="v3D-6P-pdA" eventType="editingChanged" id="hEb-xz-pVf"/>
@@ -340,7 +340,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnKilometre:" destination="v3D-6P-pdA" eventType="editingDidBegin" id="fDy-6U-Xb8"/>
                                     <action selector="valueChangeOnKilometre:" destination="v3D-6P-pdA" eventType="editingChanged" id="Fp4-ZH-Jrt"/>
@@ -363,7 +363,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnMile:" destination="v3D-6P-pdA" eventType="editingDidBegin" id="ZCa-rS-k2V"/>
                                     <action selector="valueChangeOnMile:" destination="v3D-6P-pdA" eventType="editingChanged" id="tBt-2J-25A"/>
@@ -458,7 +458,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnMetre:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="NAz-5F-1TO"/>
                                     <action selector="valueChangeOnMetrePerSec:" destination="DMr-dg-m0G" eventType="editingChanged" id="mti-1y-zDj"/>
@@ -471,7 +471,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnFeet:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="oWw-Vq-ZFQ"/>
                                     <action selector="valueChangeOnFeetPerMin:" destination="DMr-dg-m0G" eventType="editingChanged" id="33e-fd-N2U"/>
@@ -484,7 +484,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnKilometre:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="YTS-sk-ipg"/>
                                     <action selector="valueChangeOnKilometrePerHour:" destination="DMr-dg-m0G" eventType="editingChanged" id="3TT-gd-fkY"/>
@@ -507,7 +507,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="clickOnMiles:" destination="DMr-dg-m0G" eventType="editingDidBegin" id="b3h-zI-zDb"/>
                                     <action selector="valueChangeOnMilesPerHour:" destination="DMr-dg-m0G" eventType="editingChanged" id="VcQ-zt-STR"/>
@@ -581,11 +581,11 @@
             </objects>
             <point key="canvasLocation" x="-2905" y="-226"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Weight-->
         <scene sceneID="zCz-Vo-DiZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hg2-l6-fxp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="Td7-vq-VTf"/>
+                    <tabBarItem key="tabBarItem" title="Weight" image="icons8-weight-30" id="Td7-vq-VTf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="95o-aA-wtx">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -600,11 +600,11 @@
             </objects>
             <point key="canvasLocation" x="-828.79999999999995" y="-1407.7961019490256"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Temperature-->
         <scene sceneID="fmb-fD-7WT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YJk-RA-cl3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="Fey-qM-jcB"/>
+                    <tabBarItem key="tabBarItem" title="Temperature" image="icons8-temperature-30" id="Fey-qM-jcB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nU9-X6-0fh">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -619,11 +619,11 @@
             </objects>
             <point key="canvasLocation" x="-828.79999999999995" y="-646.77661169415296"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Distance-->
         <scene sceneID="ydQ-gr-RSw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jyu-fK-cUm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="JfR-yb-Jtu"/>
+                    <tabBarItem key="tabBarItem" title="Distance" image="icons8-marker-30" id="JfR-yb-Jtu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R6g-gZ-Dtc">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -638,11 +638,11 @@
             </objects>
             <point key="canvasLocation" x="-798.39999999999998" y="158.32083958020991"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Speed-->
         <scene sceneID="AvN-G4-3Cd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kzz-Ic-nMb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="search" id="8tc-OD-VP9"/>
+                    <tabBarItem key="tabBarItem" title="Speed" image="icons8-speed-30" id="8tc-OD-VP9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nCX-tf-F45">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -658,4 +658,10 @@
             <point key="canvasLocation" x="-779.20000000000005" y="899.55022488755628"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-marker-30" width="30" height="30"/>
+        <image name="icons8-speed-30" width="30" height="30"/>
+        <image name="icons8-temperature-30" width="30" height="30"/>
+        <image name="icons8-weight-30" width="30" height="30"/>
+    </resources>
 </document>
