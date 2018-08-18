@@ -587,7 +587,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hg2-l6-fxp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Weight" image="icons8-weight-30" id="Td7-vq-VTf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="95o-aA-wtx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="95o-aA-wtx">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -606,7 +606,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YJk-RA-cl3" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Temperature" image="icons8-temperature-30" id="Fey-qM-jcB"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nU9-X6-0fh">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="nU9-X6-0fh">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -625,7 +625,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jyu-fK-cUm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Distance" image="distance-30" id="JfR-yb-Jtu"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R6g-gZ-Dtc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="R6g-gZ-Dtc">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -644,7 +644,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kzz-Ic-nMb" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Speed" image="icons8-speed-30" id="8tc-OD-VP9"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nCX-tf-F45">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="nCX-tf-F45">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
